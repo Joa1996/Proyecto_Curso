@@ -26,7 +26,7 @@ public class ConexionMySQL
  
     Class.forName( CONTROLADOR ); 
  
-    conexion = DriverManager.getConnection("jdbc:mysql://localhost/Proyecto_Curso","root","1996"); 
+    conexion = DriverManager.getConnection("jdbc:mysql://localhost/Proyecto_Curso","root","****"); 
     //hacemos la conexion en este caso en localhost por que la bd esta en nuestro pc 
     //especificando usuario y contraseña 
     sentencia = conexion.createStatement(); 
